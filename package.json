@@ -1,0 +1,19 @@
+{
+  "name": "selfbot-parmaa",
+  "version": "1.0.0",
+  "description": "Selfbot para enviar mensagens e divulgar servidor Parmaa",
+  "main": "pegar_ids.js",
+  "scripts": {
+    "divulgar": "node divulgar_resposta.js",
+    "pegar": "node pegar_ids.js",
+    "mandar": "node mandar_oi.js",
+    "start": "npm run divulgar && npm run pegar && npm run mandar"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js-selfbot-v13": "^3.6.1",
+    "selenium-webdriver": "^4.31.0"
+  }
+}
